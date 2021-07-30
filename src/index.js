@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { useEffect } from 'react';
 import './index.css';
-import App from './App';
+import App from './main-page/App';
+// import App from './z-mam/main-page/App'
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
